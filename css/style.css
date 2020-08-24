@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    height: 80px;
+    line-height: 45px;
+    
+}
+.logo{
+    float: left;
+}
+.logo img{
+    max-width: 50%; 
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    padding: 8px 15px;
+    display: block;
+    font-size: 16px;
+    color: #535D69;
+    transition: 0.3s;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #BD233F;
+}
+/*header area ends*/
+
+.banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bnr-content{
+    width: 50%;
+    padding: 150px
+    
+}
+.bnr-content h1{
+    font-size: 70px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.bnr-content p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+.bnr-content button{
+    height: 50px;
+    width: 250px;
+    background-color: #BE2342;
+    font-family: sans-serif;
+    border: none;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 38px;
+    cursor: pointer;
+}
+.bnr-content button:focus{
+     outline: 0;
+ }
+/*banner area ends*/
+.works{
+    padding: 100px 0; 
+}
+.first-part{
+    margin-bottom: 70px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.first-part h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.first-part p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #525C69;
+    margin: 0;  
+    
+}
+.second-part{
+    overflow: hidden;
+}
+.single-item{
+   float: left;
+   width: 24%;
+   text-align: center;
+   padding: 0 1.5%;
+    margin: 0px 3.16%;
+}
+.single-item img{
+    width: 50%;
+}
+.single-item p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+/*works area ends*/
